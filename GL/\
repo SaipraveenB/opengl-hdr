@@ -1,0 +1,10 @@
+#version 400
+
+out vec4 frag_colour;
+in vec4 pos;
+in vec4 texColor;
+uniform vec4 col;
+void main(){
+    //frag_colour = vec4( pos.y, pos.x, pos.z, 1.0 );        
+    frag_colour = col;
+}
