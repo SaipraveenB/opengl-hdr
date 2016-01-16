@@ -17,10 +17,10 @@ All images are HDR and tone-mapped ( I've tried out several HDR -> LDR functions
 In addition to that the image sports the Bloom effect: 
 This involves passing the image through a light pass filter and applying a Gaussian blur to the resultant.
 Here's a scene without Bloom ( Notice the light patches are sharp and don't bleed )
-![Screen Shot 2016-01-16 at 2.46.24 PM.png]({{site.baseurl}}/Screen Shot 2016-01-16 at 2.46.24 PM.png)
+![Screen Shot 2016-01-16 at 2.46.24 PM.png](/Screen Shot 2016-01-16 at 2.46.24 PM.png)
 
 Here's one with Bloom( Note the color bleeding that gives a cool glare effect )
-![Screen Shot 2016-01-16 at 2.43.54 PM.png]({{site.baseurl}}/Screen Shot 2016-01-16 at 2.43.54 PM.png)
+![Screen Shot 2016-01-16 at 2.43.54 PM.png](/Screen Shot 2016-01-16 at 2.43.54 PM.png)
 
 The same shaders can be extended to make simple horizontal/vertical glare by changing the blur vector.
 
