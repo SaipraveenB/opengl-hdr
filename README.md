@@ -2,6 +2,18 @@
 A simple framework for running shaders & their supporting classes. 
 Also, there's a sample implementation of HDR tone-mapping with Bloom.
 
+Effects implemented( not all are explained ):
+1) Phong lighting model
+2) Bump mapping
+3) Perlin noise
+4) HDR rendering
+5) Tone-mapping ( The scene's brightness adapts to control average light intensity )
+6) Bloom effect
+7) Shadows using the stencil buffer
+8) Soft shadows
+
+More to come as I add more effects.
+
 Some screenshots of the HDR pipeline:
 ![Screen Shot 2015-10-18 at 11.58.36 AM.png](/Screen Shot 2015-10-18 at 11.58.36 AM.png)
 
